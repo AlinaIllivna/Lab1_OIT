@@ -1,0 +1,74 @@
+.m_div {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  line-height: 40px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.b_in_main1,
+.b_in_main2,
+.b_read_more {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: large;
+  cursor: pointer;
+}
+.b_in_main1 {
+  background-color: rgb(255, 98, 0);
+  border-color: rgb(255, 98, 0);
+  margin-right: 30px;
+}
+.b_in_main1:hover {
+  background-color: rgba(0, 0, 0, 1);
+  color: rgb(255, 98, 0);
+  border-color: rgb(255, 98, 0);
+}
+.b_in_main2 {
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgb(255, 98, 0);
+  color: white;
+}
+.b_in_main2:hover {
+  background-color: rgb(255, 98, 0);
+  color: black;
+}
+.main_picture {
+  box-shadow: 10px 10px 10px rgb(255, 98, 0);
+}
+.main_div2 {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  line-height: 40px;
+  margin-left: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.p1_d2 {
+  font-size: 20px;
+}
+.p2_d2 {
+  color: rgb(255, 98, 0);
+  font-size: 50px;
+  line-height: 50px;
+}
+.b_more {
+  margin-top: 70px;
+  text-align: center;
+}
+.b_read_more {
+  background-color: rgb(255, 98, 0);
+  cursor: pointer;
+  border-width: 0;
+}
+.b_read_more:hover {
+  background-color: white;
+  border-color: black;
+  border-width: 1px;
+}
